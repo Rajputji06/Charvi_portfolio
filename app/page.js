@@ -105,6 +105,84 @@ const CorporateIcon = ({ className = "" }) => (
   </svg>
 );
 
+/* ───── Corporate-law banner icons (line-art, theme-matched) ───── */
+const GovernanceIcon = ({ className = "" }) => (
+  <svg viewBox="0 0 120 120" className={className} fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="40" cy="46" r="6.5" stroke="currentColor" strokeWidth="2.6" />
+    <path d="M30 74 a10 10 0 0 1 20 0" stroke="currentColor" strokeWidth="2.6" />
+    <circle cx="60" cy="42" r="6.5" stroke="currentColor" strokeWidth="2.6" />
+    <path d="M50 72 a10 10 0 0 1 20 0" stroke="currentColor" strokeWidth="2.6" />
+    <circle cx="80" cy="46" r="6.5" stroke="currentColor" strokeWidth="2.6" />
+    <path d="M70 74 a10 10 0 0 1 20 0" stroke="currentColor" strokeWidth="2.6" />
+    <rect x="20" y="80" width="80" height="9" rx="3" stroke="currentColor" strokeWidth="2.6" />
+    <circle cx="60" cy="100" r="11" stroke="currentColor" strokeWidth="2.6" />
+    <path d="M55 100 l3.5 3.6 L66 96" stroke="currentColor" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round" />
+  </svg>
+);
+
+const TransactionsIcon = ({ className = "" }) => (
+  <svg viewBox="0 0 120 120" className={className} fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g transform="rotate(-11 60 70)">
+      <rect x="30" y="44" width="66" height="34" rx="5" stroke="currentColor" strokeWidth="2.3" />
+    </g>
+    <rect x="22" y="60" width="74" height="40" rx="5" stroke="currentColor" strokeWidth="2.6" />
+    <circle cx="59" cy="80" r="9" stroke="currentColor" strokeWidth="2.4" />
+    <circle cx="34" cy="80" r="3" fill="currentColor" />
+    <circle cx="84" cy="80" r="3" fill="currentColor" />
+  </svg>
+);
+
+const ComplianceIcon = ({ className = "" }) => (
+  <svg viewBox="0 0 120 120" className={className} fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M30 16 h36 l16 16 v54 a3 3 0 0 1 -3 3 h-46 a3 3 0 0 1 -3 -3 V19 a3 3 0 0 1 3 -3 Z" stroke="currentColor" strokeWidth="2.6" />
+    <path d="M66 16 v16 h16" stroke="currentColor" strokeWidth="2.6" strokeLinejoin="round" />
+    <line x1="36" y1="44" x2="68" y2="44" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
+    <line x1="36" y1="54" x2="60" y2="54" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
+    <path d="M76 70 l16 6 v11 c0 9 -7 15 -16 18 c-9 -3 -16 -9 -16 -18 V76 Z" fill="#6B4226" stroke="currentColor" strokeWidth="2.6" strokeLinejoin="round" />
+    <path d="M69 88 l5 5 l9 -10" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" />
+  </svg>
+);
+
+const ContractsIcon = ({ className = "" }) => (
+  <svg viewBox="0 0 120 120" className={className} fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M28 14 h38 l16 16 v44 a3 3 0 0 1 -3 3 h-48 a3 3 0 0 1 -3 -3 V17 a3 3 0 0 1 3 -3 Z" stroke="currentColor" strokeWidth="2.6" />
+    <path d="M66 14 v16 h16" stroke="currentColor" strokeWidth="2.6" strokeLinejoin="round" />
+    <line x1="35" y1="42" x2="73" y2="42" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
+    <line x1="35" y1="52" x2="73" y2="52" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
+    <line x1="35" y1="62" x2="60" y2="62" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
+    <rect x="60" y="98" width="40" height="8" rx="4" fill="#6B4226" stroke="currentColor" strokeWidth="2.6" />
+    <path d="M72 98 v-9 h16 v9" fill="#6B4226" stroke="currentColor" strokeWidth="2.6" strokeLinejoin="round" />
+    <path d="M74 80 C74 70 69 69 80 62 C91 69 86 70 86 80 Z" fill="#6B4226" stroke="currentColor" strokeWidth="2.6" strokeLinejoin="round" />
+  </svg>
+);
+
+const MergersIcon = ({ className = "" }) => (
+  <svg viewBox="0 0 120 120" className={className} fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect x="14" y="42" width="24" height="24" rx="5" stroke="currentColor" strokeWidth="2.6" />
+    <rect x="82" y="42" width="24" height="24" rx="5" stroke="currentColor" strokeWidth="2.6" />
+    <path d="M42 54 h16" stroke="currentColor" strokeWidth="2.6" strokeLinecap="round" />
+    <path d="M53 49 l6 5 l-6 5" stroke="currentColor" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round" />
+    <path d="M78 54 h-16" stroke="currentColor" strokeWidth="2.6" strokeLinecap="round" />
+    <path d="M67 49 l-6 5 l6 5" stroke="currentColor" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round" />
+    <path d="M60 64 v10" stroke="currentColor" strokeWidth="2.6" strokeLinecap="round" />
+    <path d="M55 69 l5 6 l5 -6" stroke="currentColor" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round" />
+    <rect x="46" y="80" width="28" height="22" rx="5" stroke="currentColor" strokeWidth="2.6" />
+  </svg>
+);
+
+const IpIcon = ({ className = "" }) => (
+  <svg viewBox="0 0 120 120" className={className} fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M60 20 a22 22 0 0 1 13 39 q-3 3 -3 8 H50 q0 -5 -3 -8 A22 22 0 0 1 60 20 Z" stroke="currentColor" strokeWidth="2.6" strokeLinejoin="round" />
+    <path d="M53 46 q7 9 14 0" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
+    <line x1="60" y1="55" x2="60" y2="67" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
+    <line x1="51" y1="73" x2="69" y2="73" stroke="currentColor" strokeWidth="2.6" strokeLinecap="round" />
+    <line x1="53" y1="80" x2="67" y2="80" stroke="currentColor" strokeWidth="2.6" strokeLinecap="round" />
+    <path d="M55 86 q5 5 10 0" stroke="currentColor" strokeWidth="2.6" strokeLinecap="round" />
+    <circle cx="88" cy="92" r="11" fill="#6B4226" stroke="currentColor" strokeWidth="2.3" />
+    <text x="88" y="97" textAnchor="middle" fontFamily="Georgia, serif" fontSize="14" fill="currentColor">©</text>
+  </svg>
+);
+
 /* Gallery thumbnail illustrations */
 const ConstitutionThumb = () => (
   <div className="w-full h-full bg-gradient-to-br from-brown-200 to-brown-300 flex items-center justify-center relative">
@@ -162,10 +240,10 @@ export default function Home() {
 
         <div className="animate-fade-up opacity-0 delay-300">
           <Link
-            href="/contact"
+            href="/articles"
             className="inline-block font-sans text-[11px] tracking-[0.25em] uppercase text-bronze border-b-2 border-bronze pb-1 hover:text-brown-700 hover:border-brown-700 transition-colors"
           >
-            Hire me
+            Explore My Work
           </Link>
         </div>
       </section>
@@ -173,30 +251,30 @@ export default function Home() {
       {/* ══════════ ICON BANNER (replaces image grid) ══════════ */}
       <section className="bg-brown-700 py-8 md:py-10 pattern-overlay">
         <div className="max-w-5xl mx-auto px-6">
-          <div className="grid grid-cols-3 md:grid-cols-6 gap-4 md:gap-6 items-center justify-items-center">
-            <div className="flex flex-col items-center gap-2">
-              <ScaleOfJustice className="w-14 h-14 md:w-16 md:h-16" />
-              <span className="font-sans text-[9px] tracking-[0.15em] uppercase text-cream/40">Justice</span>
+          <div className="grid grid-cols-3 md:grid-cols-6 gap-4 md:gap-6 items-start justify-items-center">
+            <div className="flex flex-col items-center gap-2 text-brown-200">
+              <GovernanceIcon className="w-14 h-14 md:w-16 md:h-16" />
+              <span className="font-sans text-[9px] tracking-[0.15em] uppercase text-cream/55 text-center">Governance</span>
             </div>
-            <div className="flex flex-col items-center gap-2">
-              <GavelIcon className="w-14 h-14 md:w-16 md:h-16" />
-              <span className="font-sans text-[9px] tracking-[0.15em] uppercase text-cream/40">Advocacy</span>
+            <div className="flex flex-col items-center gap-2 text-brown-200">
+              <TransactionsIcon className="w-14 h-14 md:w-16 md:h-16" />
+              <span className="font-sans text-[9px] tracking-[0.15em] uppercase text-cream/55 text-center">Transactions</span>
             </div>
-            <div className="flex flex-col items-center gap-2">
-              <BookLawIcon className="w-14 h-14 md:w-16 md:h-16" />
-              <span className="font-sans text-[9px] tracking-[0.15em] uppercase text-cream/40">Research</span>
+            <div className="flex flex-col items-center gap-2 text-brown-200">
+              <ComplianceIcon className="w-14 h-14 md:w-16 md:h-16" />
+              <span className="font-sans text-[9px] tracking-[0.15em] uppercase text-cream/55 text-center">Compliance</span>
             </div>
-            <div className="flex flex-col items-center gap-2">
-              <PillarIcon className="w-14 h-14 md:w-16 md:h-16" />
-              <span className="font-sans text-[9px] tracking-[0.15em] uppercase text-cream/40">Constitution</span>
+            <div className="flex flex-col items-center gap-2 text-brown-200">
+              <ContractsIcon className="w-14 h-14 md:w-16 md:h-16" />
+              <span className="font-sans text-[9px] tracking-[0.15em] uppercase text-cream/55 text-center">Contracts</span>
             </div>
-            <div className="flex flex-col items-center gap-2 hidden md:flex">
-              <ScrollIcon className="w-14 h-14 md:w-16 md:h-16" />
-              <span className="font-sans text-[9px] tracking-[0.15em] uppercase text-cream/40">Drafting</span>
+            <div className="flex flex-col items-center gap-2 text-brown-200 hidden md:flex">
+              <MergersIcon className="w-14 h-14 md:w-16 md:h-16" />
+              <span className="font-sans text-[9px] tracking-[0.15em] uppercase text-cream/55 text-center">Mergers</span>
             </div>
-            <div className="flex flex-col items-center gap-2 hidden md:flex">
-              <ShieldIcon className="w-14 h-14 md:w-16 md:h-16" />
-              <span className="font-sans text-[9px] tracking-[0.15em] uppercase text-cream/40">Protection</span>
+            <div className="flex flex-col items-center gap-2 text-brown-200 hidden md:flex">
+              <IpIcon className="w-14 h-14 md:w-16 md:h-16" />
+              <span className="font-sans text-[9px] tracking-[0.15em] uppercase text-cream/55 text-center">IP</span>
             </div>
           </div>
         </div>
