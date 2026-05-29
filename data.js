@@ -16,10 +16,10 @@ export const profile = {
   firstName: "Charvi",
   photo: "/profile.png",
   email: "Charvibatra15@gmail.com",
-  phone: "798705009",
+  phone: "7987050009",
   location: "Haryana, India",
-  heroTagline: "I believe justice is the foundation of society. My legal practice is rooted in rigorous research, precision drafting, and unwavering advocacy.",
-  bio: `Recent university graduate pursuing B.A. LL.B. (Hons.) at Amity University Haryana. I am passionate about constitutional law, litigation, and legal research. My goal is to make my mark in the legal profession through thoughtful advocacy and scholarly writing. I would love to work with firms and organisations that value diligence, analytical thinking, and a commitment to justice. Reach out if you think we can create meaningful legal impact together.`,
+  heroTagline: "A law student building a practice at the intersection of corporate strategy, commercial transactions, and precision drafting.",
+  bio: `I am a law student driven by the belief that effective legal practice requires more than knowledge of statutes; it demands commercial awareness, strategic thinking, and precise drafting. My experience spans legal research, dispute analysis, drafting, and regulatory work, with a developing focus on corporate and commercial law has shaped my approach towards practical and detail-oriented legal work. Through continuous learning, research, and drafting practice, I aim to build a career centred on commercial sound and strategically effective legal solutions.`,
   shortBio:
     "Law student with a passion for constitutional law, legal research, and advocacy. Published author and active moot court participant.",
   socialHandle: "@charvibatra",
@@ -128,6 +128,13 @@ export const skills = [
   "Team Collaboration",
   "Communication",
   "Client Interaction",
+  "LexisNexis",
+  "Manupatra",
+  "SSC Online",
+  "Leadership",
+  "Intellectual Property",
+  "Contract Advisory",
+  "Competition Law",
 ];
 
 export const publications = [
